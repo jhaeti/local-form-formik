@@ -21,7 +21,6 @@ const Questions = ({ questions, handleChange }) => {
       );
     }
   }
-  console.log(filterOut.length, filteredQuestion.length);
 
   return filteredQuestion.map((question, i) => (
     <Question
